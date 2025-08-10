@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/logo.png" alt="rdmpass logo" width="200"/>
+</p>
+
 # rdmpass
 
 **True random password generator using mouse movement entropy with extensive customization options.**
@@ -45,7 +49,7 @@ The result is a truly unique 256-bit key that is statistically infeasible to rep
 ### Steps
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/rdmpass.git
+git clone https://github.com/scribevs/rdmpass.git
 cd rdmpass
 
 # Start the server
