@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/scribevs/rdmpass/main/rdmpass_updated/rdmpass/client/logo.png" alt="rdmpass logo" width="200"/>
+  <img src="https://raw.githubusercontent.com/scribevs/rdmpass/main/rdmpass_updated/rdmpass/client/logo-transparent.png" alt="rdmpass transparent logo" width="200"/>
 </p>
 
 # rdmpass
