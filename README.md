@@ -25,9 +25,10 @@
 Most password generators rely on pseudo-random number generators (PRNGs), which, while strong, are ultimately deterministic algorithms seeded from predictable sources like the system clock or OS entropy pools.  
 
 By contrast, **mouse movement entropy** is:
-- **Unpredictable** — small variations in human motion, speed, and direction are extremely hard to model or guess.
+- **Unpredictable** — micro-variations in human motion, speed, and direction are essentialy impossible to model or guess.
 - **High-entropy** — every recorded movement (position + timestamp) adds more unpredictability to the entropy pool.
 - **Local and private** — all data is processed in your browser and never transmitted.
+- **Unrepeatable** — no two movement patterns are identical, making each generated entropy-pool completely unique and therefore impossible to replicate.
 
 The result is a truly unique 256-bit key that is statistically infeasible to reproduce.
 
@@ -60,22 +61,6 @@ Then open:
 http://localhost:3000
 ```
 
----
 
-## Usage
-1. Open the app in your browser.
-2. Adjust settings to your liking (length, movement count, character sets).
-3. Move your mouse as randomly as possible until the progress bar fills.
-4. Click **Generate Password**.
-5. Copy your password if desired.
 
----
-
-## Security Notes
-- All randomness and password generation happen **entirely in the browser**.
-- For maximum strength, increase the length of the password, the mouse movement count, and select multiple character sets.
-
----
-
-## License
 
