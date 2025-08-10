@@ -64,8 +64,8 @@ http://localhost:3000
 
 ## Usage
 1. Open the app in your browser.
-2. Adjust settings (length, movement count, character sets).
-3. Move your mouse until the progress bar fills.
+2. Adjust settings to your liking (length, movement count, character sets).
+3. Move your mouse as randomly as possible until the progress bar fills.
 4. Click **Generate Password**.
 5. Copy your password if desired.
 
@@ -73,7 +73,7 @@ http://localhost:3000
 
 ## Security Notes
 - All randomness and password generation happen **entirely in the browser**.
-- For maximum strength, increase the mouse movement count and select multiple character sets.
+- For maximum strength, increase the length of the password, the mouse movement count, and select multiple character sets.
 
 ---
 
